@@ -1,0 +1,91 @@
+body {
+  background-color: navy;
+  color: #ffff;
+  line-height: 30px;
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+h1 {
+  font-size: 2em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.2em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+a {
+  color: #ffff;
+
+}
+
+a:anylink {
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+ a:hover {
+  background-color: inherit;
+  color: pink;
+}
+ul {
+  list-style-type: none;
+  float: right;
+
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
